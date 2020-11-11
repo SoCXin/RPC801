@@ -1,38 +1,30 @@
-﻿# [NUC131](https://github.com/sochub/NUC131)
+﻿# [NUC131](https://github.com/SoCXin/NUC131)
 
-[![sites](http://182.61.61.133/link/resources/docs.png)](https://stop.stops.top) 
+[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
 
-#### [Vendor](https://github.com/sochub/Vendor)：[nuvoton](https://github.com/sochub/nuvoton)
-#### [cortex](https://github.com/sochub/cortex)：[M0](https://github.com/sochub/CM0)
-#### [Level](https://github.com/sochub/Level)：50MHz 
+#### [Vendor](https://github.com/SoCXin/Vendor)：[nuvoton](http://www.nuvoton.com.cn/)
+#### [Core](https://github.com/SoCXin/Cortex)：[Cortex M0](https://github.com/SoCXin/CM0)
+#### [Level](https://github.com/SoCXin/Level)：50MHz
 
-## [NUC131描述](https://github.com/sochub/NUC131/wiki) 
+## [简介](https://github.com/SoCXin/NUC131/wiki)
 
-[NUC131](https://github.com/sochub/NUC131) 采用 Cortex M0内核，NuMicro™ NUC131系列特色为宽电压工作范围 2.5V 至 5.5V , 工作温度: - 40 ℃ 至105 ℃ , 内建 22.1184 MHz 高精度晶振 ( 1 % 准确度 ) 。 备有丰富的外设, 如CAN2.0A/B, 定时器, 看门狗定时器,多组 UART , SPI , I²C , PWM , 12位 ADC , 模拟比较器等。
+[NUC131](http://www.nuvoton.com.cn/products/microcontrollers/arm-cortex-m0-mcus/nuc131-nuc1311-can-series/) 系列宽电压工作范围2.5V 至 5.5V , 工作温度: - 40 ℃ 至105 ℃ , 内建 22.1184 MHz高精度晶振 (1 % 准确度)
 
--	36 KB 应用程序Flash
--	内嵌8 KB SRAM
--	Configurable Data Flash
--	支持在线系统更新 ISP ( In-System Programming )
--	支持在线电路更新 ICP ( In-Circuit Programming )
--	1组 CAN2.0A/B
--	1组 SPI ( 可达36 MHz )
--	2组 I²C ( 可达 400 kHz )
--	6组 UART   ( 可达1 Mbps )
--	内建16位 PWM 产生器,可输出24路 PWM 或4组互补配对 PWM
+##### 关键特性
 
+* CAN 2.0 A/B
+* 9个串口（6个普通Uart串口+3个LIN）
+* 工作电压: 2.5 V ~ 5.5 V
+* 工作温度: - 40°C ~ +105°C
+* 4 KB Data Flash
 
-### 关键参数：
+### [资源收录](https://github.com/SoCXin/NUC131)
 
-* Cortex-M0内核，50MHz主频
+* [文档](docs/)
+* [工程](src/)
 
-### [资源收录](https://github.com/sochub/NUC131)
+### [选型建议](https://github.com/SoCXin)
 
-* [文档](docs/) 
-* [资源](src/) 
+[NUC131](https://github.com/SoCXin/NUC131) 常用型号 NUC131LC2AE(LQFP48)
 
-### [选型建议](https://github.com/sochub)
-
-[NUC131](https://github.com/sochub/NUC131)的片上资源
-
-###  [SoC资源平台](http://www.qitas.cn)
+###  [SoC芯平台](http://www.SoC.Xin)
