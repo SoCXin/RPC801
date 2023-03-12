@@ -1,38 +1,30 @@
-﻿# [NUC131](https://github.com/SoCXin/NUC131)
+﻿# [RPC801](https://doc.soc.xin/RPC801)
 
-[![sites](http://182.61.61.133/link/resources/SoC.png)](http://www.SoC.Xin)
+* [rpcom](http://www.rpcom-micro.com): [Cortex-A7](https://github.com/SoCXin/Cortex)
+* [L4R3](https://github.com/SoCXin/Level): 624 MHz
 
-* [nuvoton](http://www.nuvoton.com.cn/)：[Cortex-M0](https://github.com/SoCXin/Cortex)
-* [L3R4](https://github.com/SoCXin/Level)：50 MHz  * 0.95 DMIPS/MHz
+## [简介](https://github.com/SoCXin/RPC801/wiki)
 
-## [简介](https://github.com/SoCXin/NUC131/wiki)
+[RPC801](http://www.rpcom-micro.com/product/13.html) 是睿普康公司自主研发的一款面向物联网市场的高集成度、低成本、低功耗、安全智能的蜂窝网通信SOC芯片，支持4G LTE CAT1 R14通信协议标准。RPC801承载睿普康多年SOC芯片研发和产品化经验，实现业界高集成度设计，芯片包含基带、射频、电源管理以及FLASH，合并封装存储器，可以集成至小尺寸产品中，极大减小模组面积，满足物联网市场各种应用需求。
 
-[NuMicro® NUC131](https://www.nuvoton.com/products/microcontrollers/arm-cortex-m0-mcus/nuc131-nuc1311-can-series/) 系列内建 22.1184 MHz 高精度晶振 ( 1 % 准确度 ) 。 备有丰富的外设, 如CAN2.0A/B, 定时器, 看门狗定时器,多组 UART , SPI , I²C , PWM , 12位 ADC。
+### 关键参数
 
-[![sites](docs/NUC131.png)](https://www.nuvoton.com/products/microcontrollers/arm-cortex-m0-mcus/nuc131-nuc1311-can-series/)
+* LFBGA 10x10 mm
 
-### 关键特性
+## [资源收录](https://github.com/SoCXin)
 
-* CAN 2.0 A/B
-* 6 x UART
-* 工作电压: 2.5 V ~ 5.5 V
-* 工作温度: -40°C ~ 105°C
-* 4 KB Data Flash
-
-#### 封装规格
-
-* LQFP48（7*7mm,P0.5mm）
-* LQFP64（7*7mm,P0.5mm）
-
-### [资源收录](https://github.com/SoCXin/NUC131)
-
-* [参考文档](docs/)
 * [参考资源](src/)
+* [参考文档](docs/)
 * [参考工程](project/)
 
-### [选型建议](https://github.com/SoCXin)
-
-[NUC131](https://github.com/SoCXin/NUC131) 是 NuMaker UNO的主控芯片
+## [选型建议](https://github.com/SoCXin/RPC801)
 
 
-### [探索芯世界 www.SoC.xin](http://www.SoC.Xin)
+[RPC801](https://github.com/SoCXin/RPC801) 同类Cat.1bis竞品包括：
+
+* [EC618](https://github.com/SoCXin/EC618)
+* [V8850](https://github.com/SoCXin/V8850)
+* [XY4100](https://github.com/SoCXin/XY4100)
+* [8910DM](https://github.com/SoCXin/UIS8910DM)
+* [ASR1601](https://github.com/SoCXin/ASR1601)
+* [ASR1606](https://github.com/SoCXin/ASR1606)

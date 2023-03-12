@@ -1,83 +1,36 @@
 {
-    "name":"NUC131",
-    "type":"MCU",
-    "Freq":"50MHz",
-    "vendor":"nuvoton",
-    "Core":"Cortex-M0",
-    "description":"nuvoton Cortex-M0 MCU",
-    "homepage":"http://www.SoC.xin/NUC131",
-    "keywords": [
-        "motor",
-        "nuvoton",
-        "Cortex-M0",
-        "32-bit"
-    ],
+    "type":"SoC",
+    "name":"RPC801",
+    "title": "rpcom RPC801 SoC",
+    "description":"rpcom Cortex-A7 Cat.1 SoC",
+    "Core": {
+        "CoreNum": 1,
+        "Core":"Cortex-A7",
+        "Fmax":624,
+        "DMIPS": 1250,
+        "CoreMark": 1680
+    },
+    "manufacturer": {
+        "vendor":"rpcom",
+        "homepage":"http://www.rpcom-micro.com"
+    },
     "repository": {
         "type": "git",
-        "url": "https://github.com/SoCXin/NUC131.git"
+        "url": "https://github.com/SoCXin/RPC801.git"
     },
     "version":"1.0.0",
-    "series":["NUC131LC2AE","NUC131SC2AE"],
-    "package":["LQFP64","LQFP48"],
-    "NUC131SC2AE": {
-        "package":"LQFP64",
-        "RAM":160,
-        "ROM":512,
-        "peripheral": ["ADC","IIC","UART","SPI","LDO","PWM"]
+    "series":["RPC801"],
+    "package":["QFN52"],
+    "peripheral": ["ADC","XIP","USB","USART","SPI","IIC"],
+    "temp": [-40,85],
+    "volt": [1.8,3.3],
+    "ESD": {
+        "HBM": 2000,
+        "CDM": 500
     },
-    "NUC131LC2AE": {
-        "package":"LQFP48",
-        "SRAM":4,
-        "Flash":32
-    },
-    "USART0": {
-        "LIN": 1,
-        "more":["BUAD","LIN","IrDA"]
-    },
-    "USART1": {
-        "LIN": 1,
-        "more":["BUAD","LIN","IrDA"]
-    },
-    "USART2": {
-        "LIN": 1,
-        "more":["BUAD","LIN","IrDA"]
-    },
-    "ADC": {
-        "num": 1,
-        "channel": 8,
-        "resolution": 12,
-        "rate": 2400
-    },
-    "IIC": {
-        "num": 1,
-        "channel": 8,
-        "resolution": 12,
-        "rate": 2400
-    },
-    "DMA": {
-        "num": 2,
-        "rate": 2400
-    },
-    "CMP": {
-        "num": 2,
-        "rate": 2400
-    },
-    "OPA": {
-        "num": 2,
-        "rate": 2400
-    },
-    "TIM": {
-        "resolution":[16,16,16],
-        "rate": 1024
-    },
-    "PWR": {
-        "VDD": [2700,5500],
-        "Ivdd": 3.5,
-        "rate": 1024
-    },
-    "PWM": {
-        "num": 2,
-        "resolution": 8,
-        "rate": 256
-    }
+    "keywords": [
+        "Cortex-A7",
+        "rpcom",
+        "DAC","ADC","I2C","LVD","SPI","LPUSART"
+    ]
 }
